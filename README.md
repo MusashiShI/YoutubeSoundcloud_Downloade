@@ -1,109 +1,132 @@
-# Youtube & SoundCloud Downloader
+# 🎵 Youtube & SoundCloud Downloader 🎥
 
-![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
-![License](https://img.shields.io/badge/License-MIT-green)
-![GitHub Repo Size](https://img.shields.io/github/repo-size/MusashiShI/YoutubeSoundcloud_Downloade)
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue)  
+![License](https://img.shields.io/badge/License-MIT-green)  
+![Repo Size](https://img.shields.io/github/repo-size/MusashiShI/YoutubeSoundcloud_Downloade)  
 
-Um aplicativo simples e moderno para baixar vídeos do YouTube e áudios do SoundCloud. Desenvolvido em Python com uma interface gráfica amigável.
-
----
-
-## Funcionalidades
-
-- **Download de Vídeos do YouTube**:
-  - Suporta resoluções de 144p até 4K60fps.
-  - Opção para baixar apenas o áudio.
-- **Download de Áudios do SoundCloud**:
-  - Baixa músicas diretamente no formato MP3.
-- **Interface Moderna**:
-  - Tema escuro e design intuitivo.
-- **Organização Automática**:
-  - Os downloads são salvos em pastas separadas (`Youtube` e `Soundcloud`).
+🚀 Um aplicativo simples e moderno para baixar vídeos do **YouTube** e áudios do **SoundCloud**. Desenvolvido em **Python** com uma interface gráfica amigável.
 
 ---
 
-## Pré-requisitos
+## ✨ Funcionalidades
+
+✅ **Download de Vídeos do YouTube**
+- Suporta resoluções de **144p até 4K60fps**.
+- Opção para baixar **somente o áudio**.
+
+✅ **Download de Áudios do SoundCloud**
+- Baixa músicas diretamente no formato **MP3**.
+
+✅ **Interface Moderna**
+- Tema escuro e design intuitivo usando `ttkbootstrap`.
+
+✅ **Organização Automática**
+- Os downloads são salvos em pastas separadas (`Youtube/` e `Soundcloud/`).
+
+---
+
+## 🛠️ Pré-requisitos
 
 Antes de começar, certifique-se de ter o seguinte instalado:
 
-- **Python 3.8 ou superior**:
-  - [Baixe o Python](https://www.python.org/downloads/).
-- **Git** (opcional, para clonar o repositório):
-  - [Baixe o Git](https://git-scm.com/).
+- 🐍 **Python 3.8 ou superior** → [Baixe o Python](https://www.python.org/downloads/).
+- 🌍 **Git** (opcional, para clonar o repositório) → [Baixe o Git](https://git-scm.com/).
 
 ---
 
-## Como Usar
+## 🚀 Como Usar
 
-### 1. Clonar o Repositório
-Abra o terminal e execute o seguinte comando para clonar o repositório:
+### 1️⃣ Clonar o Repositório
+Abra o terminal e execute:
 ```bash
 git clone git@github.com:MusashiShI/YoutubeSoundcloud_Downloade.git
 cd YoutubeSoundcloud_Downloade
 ```
 
-2. Instalar as Dependências
-Instale as bibliotecas necessárias usando o pip:
+### 2️⃣ Criar e Ativar o Ambiente Virtual (Recomendado)
+Crie um ambiente virtual para evitar conflitos de dependências:
+```bash
+python -m venv venv  # Criar o ambiente virtual
+source venv/bin/activate  # Ativar no Linux/macOS
+venv\Scripts\activate  # Ativar no Windows
+```
+
+### 3️⃣ Instalar as Dependências
+Instale as bibliotecas necessárias:
 ```bash
 pip install -r requirements.txt
 ```
 
-3. Executar o Programa
+### 4️⃣ Executar o Programa
 ```bash
 python main.py
 ```
-4. Usar o Aplicativo
-Insira a URL:
-Cole o link do YouTube ou SoundCloud no campo de texto.
 
-Processe a URL:
-Clique em "Process URL" para verificar o link e exibir as opções de qualidade (se for um vídeo do YouTube).
+---
 
-Selecione a Qualidade:
-Para vídeos do YouTube, escolha a qualidade desejada no menu suspenso.
+## 🎨 Como Usar o Aplicativo
 
-Baixe:
-Clique em "Download" para iniciar o download.
+1️⃣ **Insira a URL** → Cole o link do **YouTube** ou **SoundCloud**.
+2️⃣ **Processar URL** → Clique em "Process URL" para verificar e exibir opções.
+3️⃣ **Selecionar Qualidade** → Escolha a resolução desejada para vídeos.
+4️⃣ **Baixar** → Clique em "Download" e aguarde! 🎶📥
 
-O arquivo será salvo na pasta correspondente (Youtube ou Soundcloud).
+Os arquivos serão salvos automaticamente em suas respectivas pastas!
 
+---
 
-Como Contribuir
-Contribuições são bem-vindas! Siga os passos abaixo:
+## 🤝 Como Contribuir
 
-Faça um Fork do repositório.
+💡 **Contribuições são bem-vindas!** Siga os passos abaixo:
 
-Crie um Branch para sua feature ou correção:
+1️⃣ **Faça um Fork** do repositório.
+2️⃣ **Crie um Branch** para sua feature ou correção:
 ```bash
 git checkout -b minha-feature
 ```
-Faça Commit das suas alterações:
+3️⃣ **Faça Commit das suas alterações**:
 ```bash
 git commit -m "Adicionando nova funcionalidade"
 ```
-Envie para o Repositório:
+4️⃣ **Envie para o Repositório**:
 ```bash
 git push origin minha-feature
 ```
-Abra um Pull Request no GitHub.
+5️⃣ **Abra um Pull Request no GitHub**.
 
-Estrutura do Projeto
+---
+
+## 📁 Estrutura do Projeto
+
+```
 YoutubeSoundcloud_Downloade/
 ├── main.py              # Código principal do aplicativo
 ├── requirements.txt     # Lista de dependências
 ├── README.md            # Este arquivo
+├── venv/                # Ambiente virtual (se criado)
 ├── Youtube/             # Pasta para downloads do YouTube
 └── Soundcloud/          # Pasta para downloads do SoundCloud
-Licença
-Este projeto está licenciado sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
+```
 
-Contato
-Se tiver dúvidas ou sugestões, sinta-se à vontade para entrar em contato:
+---
 
-GitHub: MusashiShI
+## 📜 Licença
 
-Email: beselgamain@gmail.com
+📝 Este projeto está licenciado sob a licença **MIT**. Veja o arquivo `LICENSE` para mais detalhes.
 
-Agradecimentos
-ttkbootstrap pela interface moderna.
-yt-dlp pela biblioteca de download.
+---
+
+## 📬 Contato
+
+📌 **GitHub**: [MusashiShI](https://github.com/MusashiShI)  
+📧 **Email**: beselgamain@gmail.com  
+
+---
+
+## 🎉 Agradecimentos
+
+💙 **Agradecimentos especiais às bibliotecas incríveis usadas neste projeto**:
+- 🎨 [`ttkbootstrap`](https://ttkbootstrap.readthedocs.io/en/latest/) → Interface moderna.
+- 📥 [`yt-dlp`](https://github.com/yt-dlp/yt-dlp) → Download eficiente de vídeos e músicas.
+
+🚀 **Divirta-se baixando seus vídeos e músicas favoritas!** 🎶🔥
